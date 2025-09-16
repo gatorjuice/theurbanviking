@@ -10,6 +10,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "build:gh-pages": "NODE_ENV=production vite build",
+    "preview:gh-pages": "npm run build:gh-pages && vite preview",
     "test:unit": "vitest",
     "prepare": "cypress install",
     "test:e2e": "start-server-and-test preview http://localhost:4173 'cypress run --e2e'",
@@ -18,10 +20,12 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
     "jwt-decode": "^4.0.0",
     "pinia": "^3.0.3",
     "vue": "^3.5.18",
-    "vue-router": "^4.5.1"
+    "vue-router": "^4.5.1",
+    "vuetify": "^3.10.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.31.0",
