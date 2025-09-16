@@ -1,11 +1,13 @@
-<script setup></script>
+<script setup>
+import GoogleSignIn from './components/GoogleSignIn.vue'
+import AddVideo from './components/AddVideo.vue'
+import VideoList from './components/VideoList.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <GoogleSignIn />
+  <AddVideo />
+  <VideoList />
 </template>
 
 <style scoped></style>
