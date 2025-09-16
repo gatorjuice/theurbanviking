@@ -47,5 +47,13 @@ export const videos = [
     embedUrl: 'https://player.vimeo.com/video/33624851',
     platform: 'vimeo',
     addedAt: '2024-09-16T15:40:00.000Z'
+  },
+  {
+    id: 'video-7',
+    title: 'YouTube Video CZuhGqHaQBE',
+    url: 'https://youtu.be/CZuhGqHaQBE',
+    embedUrl: 'https://www.youtube.com/embed/CZuhGqHaQBE',
+    platform: 'youtube',
+    addedAt: '2024-09-16T15:45:00.000Z'
   }
 ]
