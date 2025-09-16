@@ -61,3 +61,4 @@ This is a modern Vue 3 video collection website built with Vuetify 3. It display
 - Path alias `@` maps to `src/` directory
 - ESLint configured with Vue, Vitest, and Cypress plugins
 - Vuetify with Material Design Icons bundled
+- Don't have the deploy step perfom linting
