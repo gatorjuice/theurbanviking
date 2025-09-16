@@ -10,34 +10,42 @@ export const videos = [
   },
   {
     id: 'video-2',
-    title: 'Me at the zoo',
-    url: 'https://www.youtube.com/watch?v=jNQXAC9IVRw',
-    embedUrl: 'https://www.youtube.com/embed/jNQXAC9IVRw',
-    platform: 'youtube',
-    addedAt: '2024-01-20T14:45:00.000Z'
+    title: "'96 Fall Follies",
+    url: 'https://vimeo.com/34014232',
+    embedUrl: 'https://player.vimeo.com/video/34014232',
+    platform: 'vimeo',
+    addedAt: '2024-09-16T15:30:00.000Z'
   },
   {
     id: 'video-3',
-    title: 'The New Vimeo Player',
-    url: 'https://vimeo.com/76979871',
-    embedUrl: 'https://player.vimeo.com/video/76979871',
+    title: "'98 on Broadway with Senior Goodbye's",
+    url: 'https://vimeo.com/33931651',
+    embedUrl: 'https://player.vimeo.com/video/33931651',
     platform: 'vimeo',
-    addedAt: '2024-01-25T09:15:00.000Z'
+    addedAt: '2024-09-16T15:32:00.000Z'
   },
   {
     id: 'video-4',
-    title: 'Big Buck Bunny',
-    url: 'https://www.youtube.com/watch?v=aqz-KE-bpKQ',
-    embedUrl: 'https://www.youtube.com/embed/aqz-KE-bpKQ',
-    platform: 'youtube',
-    addedAt: '2024-02-01T16:20:00.000Z'
+    title: "Will Roger's Follies",
+    url: 'https://vimeo.com/33928021',
+    embedUrl: 'https://player.vimeo.com/video/33928021',
+    platform: 'vimeo',
+    addedAt: '2024-09-16T15:35:00.000Z'
   },
   {
     id: 'video-5',
-    title: 'Tears of Steel',
-    url: 'https://vimeo.com/52986107',
-    embedUrl: 'https://player.vimeo.com/video/52986107',
+    title: 'Gotta Sing! Gotta Dance!',
+    url: 'https://vimeo.com/33624965',
+    embedUrl: 'https://player.vimeo.com/video/33624965',
     platform: 'vimeo',
-    addedAt: '2024-02-10T11:45:00.000Z'
+    addedAt: '2024-09-16T15:37:00.000Z'
+  },
+  {
+    id: 'video-6',
+    title: '42nd Street',
+    url: 'https://vimeo.com/33624851',
+    embedUrl: 'https://player.vimeo.com/video/33624851',
+    platform: 'vimeo',
+    addedAt: '2024-09-16T15:40:00.000Z'
   }
 ]
